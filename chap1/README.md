@@ -1,0 +1,1 @@
+in this Chapter I learned about using request, Response, session, redirect, url_for in the Flask created a simple Loggin and Logout pages
