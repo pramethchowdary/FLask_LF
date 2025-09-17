@@ -1,0 +1,1 @@
+I created the same page but now i used templates and understood how to integrate flask and html. 
