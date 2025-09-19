@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+</head>
+<body>
+    <h2>Welcome {{name}}! </h2>
+    {% if IsTopper %}
+    <p>Nice Nana you Have a Bright Future raa!</p>
+    {% else %}
+    <p>Nuvu Gatiga focus cheyali Amma!</p>
+    {% endif %}
+    <h4>Subjects Opted:</h4>
+    {%for sub in subjects %}
+        <li>{{sub}}</li>
+        {%endfor%}
+    <p>Thank you!</p>
+
+</body>
+</html>
