@@ -1,0 +1,1 @@
+this is the next phase where i learned template inheritance to reduce the redendance of the code in jinja
