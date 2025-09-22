@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%block title%}my site{%endblock%}</title>
+</head>
+<body>
+  <header>
+    <h1> Welcome</h1>
+    <nav><a href="/form"> create accout</a></nav>
+  </header> 
+  {%with message = get_flashed_messages()%}
+  {%if message%}
+  <ul style = "color: crimson;">
+    {%for msg in message%}
+    <li>{{msg}}</li>
+    {%endfor%}
+  </ul> 
+  {%endif%}
+  {%endwith%}
+  {%block content%}
+  {%endblock%}
+  <footer><p>
+    this is footer go touch grass!
+  </p></footer>
+</body>
+</html>

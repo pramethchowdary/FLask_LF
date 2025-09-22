@@ -1,0 +1,13 @@
+{%extends "base.html"%}
+
+{%block content%}
+<h2>Put in your cred</h2>
+<form action="/" method="POST">
+    <label for = "username">Name:</label><br>
+    <input type ="text" id = "username" name = "username" placeholder = "enter you name"><br>
+    <label for="password">Password:</label><br>
+    <input type = "text" name = "password" id = "password" placeholder = "enter you password"><br>
+    <input type="submit" value="Create">
+
+</form>
+{%endblock%}
